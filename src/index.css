@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  background-color: #4c6658;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.image {
+  width: 100%;
+}
+
+.wrap-image {
+  z-index: 1;
+  position: relative;
+}
+.wrap-image::before,
+.wrap-image::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  transition: all 0.25s ease-out;
+}
+.wrap-image::before {
+  background-color: #4c6658;
+  top: -10px;
+  left: -10px;
+}
+.wrap-image::after {
+  border: 5px solid #4c6658;
+  bottom: -10px;
+  right: -10px;
+}
+
+.wrap-image:hover::before {
+  top: 10px;
+  left: 10px;
+}
+.wrap-image:hover::after {
+  bottom: 10px;
+  right: 10px;
+}
+
+.fab:hover::before {
+  color: #fff;
+}
+
+.card-header {
+  background-color: #ac8eab !important;
+}
+
+.circle-hover:hover {
+  animation: bounce 0.5s;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  60%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
+#youtube {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: silver; /* show me! */
+}
+
+.prized_peacocks {
+  max-width: 100%;
+}
+
+.custom_container {
+  position: relative;
+}
+
+.hover_text_box {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 1vw;
+  padding: 5px 10px;
+  background-color: #bc987e;
+}
+
+h3.text {
+  font-size: 1.5vw;
+}
+.custom_container:hover .hover_text_box {
+  opacity: 1;
+}
+
+.prized_text_container {
+  margin-left: 10%;
+}
+
+/* Team flip cards */
+.flip-card {
+  background-color: transparent;
+  height: 260px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  height: 260px;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  height: 260px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  background-color: #bc987e;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.trees {
+  width: 100%;
+}
+
+.grass {
+  height: 60px;
+  width: 100%; /* or i.e: 500px */
+  background: url("./grass.png");
+  background-repeat: repeat-x;
+}
+
+.banner {
+  max-height: 600px;
+  height: 25vw;
+}
