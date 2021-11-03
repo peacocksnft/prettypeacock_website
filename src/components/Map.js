@@ -49,7 +49,7 @@ export const Map = () => {
             <Row>
               <Col lg={{ span: 4 }} className="d-flex align-items-center">
                 <img
-                  className="w-100"
+                  className="w-100 circle-hover"
                   src="/road-map-eggs/25.png"
                   alt="0 percent egg"
                 />
@@ -81,7 +81,7 @@ export const Map = () => {
             <Row>
               <Col lg={{ span: 4 }} className="d-flex align-items-center">
                 <img
-                  className="w-100"
+                  className="w-100 circle-hover"
                   src="/road-map-eggs/50.png"
                   alt="0 percent egg"
                 />
@@ -113,7 +113,7 @@ export const Map = () => {
             <Row>
               <Col lg={{ span: 4 }} className="d-flex align-items-center">
                 <img
-                  className="w-100"
+                  className="w-100 circle-hover"
                   src="/road-map-eggs/75.png"
                   alt="0 percent egg"
                 />
@@ -148,7 +148,7 @@ export const Map = () => {
             <Row>
               <Col lg={{ span: 4 }} className="d-flex align-items-center">
                 <img
-                  className="w-100"
+                  className="w-100 circle-hover"
                   src="/road-map-eggs/100.png"
                   alt="0 percent egg"
                 />
