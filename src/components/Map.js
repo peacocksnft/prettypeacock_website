@@ -16,7 +16,7 @@ export const Map = () => {
             <Row>
               <Col lg={{ span: 4 }} className="d-flex align-items-center">
                 <img
-                  className="w-100"
+                  className="w-100 circle-hover"
                   src="/road-map-eggs/0.png"
                   alt="0 percent egg"
                 />
