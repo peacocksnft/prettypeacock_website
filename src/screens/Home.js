@@ -73,7 +73,7 @@ export const Home = () => {
       <div className="bg-secondary py-5" id="countdown">
         <Container data-aos="fade-up" data-aos-duration="2000">
           <h1 className="mb-4 text-center text-white">
-            Sale Goes Live At The End of November
+            Sale Goes Live In February
           </h1>
         </Container>
         <Row className="mt-4">
