@@ -108,7 +108,7 @@ export const FAQ = () => {
                   </Accordion.Toggle>
                   <Accordion.Collapse eventKey="10">
                     <Card.Body>
-                      Please wait for our official launch date in Late November.
+                      Please wait for our official launch date in Late February.
                       In the meantime, participate in any of our contests for
                       the whitelist position!
                     </Card.Body>
