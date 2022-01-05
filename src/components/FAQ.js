@@ -37,7 +37,7 @@ export const FAQ = () => {
                   </Accordion.Toggle>
                   <Accordion.Collapse eventKey="1">
                     <Card.Body>
-                      Pretty Peacocks are 10,000 eloquently designed, hand
+                      Pretty Peacocks are 5555 eloquently designed, hand
                       illustrated and randomly generated collectible NFTs
                       hatching from eggs and gathering in their sanctuary.
                       Pretty Peacocks will gather on MagicEden, a premier
@@ -56,7 +56,7 @@ export const FAQ = () => {
                   </Accordion.Toggle>
                   <Accordion.Collapse eventKey="3">
                     <Card.Body>
-                      Mint cost is TBD. There will be a total of 10,000
+                      Mint cost is TBD. There will be a total of 5555
                       peacocks. Please note that 200 peacocks will be reserved
                       for the team and marketing purposes.
                     </Card.Body>
@@ -91,7 +91,7 @@ export const FAQ = () => {
                     <Card.Body>
                       We are glad that you asked. As peacocks are not considered
                       endangered, but rather quite populated(that’s why we have
-                      10,000 available), we will donate to Rainbow Railroad.
+                      5555 available), we will donate to Rainbow Railroad.
                       This charity focuses on helping LGBTQ escape lives of
                       persecution in their home country and fly and live a free
                       and peaceful life, just like our peacocks. Together, with
