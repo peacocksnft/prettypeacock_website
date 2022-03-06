@@ -56,7 +56,7 @@ export const FAQ = () => {
                   </Accordion.Toggle>
                   <Accordion.Collapse eventKey="3">
                     <Card.Body>
-                      Mint cost is TBD. There will be a total of 5555
+                      Mint cost is 1.5 SOL. There will be a total of 5555
                       peacocks. Please note that 200 peacocks will be reserved
                       for the team and marketing purposes.
                     </Card.Body>
@@ -70,7 +70,7 @@ export const FAQ = () => {
                   <Accordion.Collapse eventKey="4">
                     <Card.Body>
                       <p>
-                        Yes, we will have a total of 1,500 whitelist spots
+                        Yes, we will have a total of 3,000 whitelist spots
                         available. Presale will happen one day before public
                         launch.
                       </p>
@@ -108,7 +108,7 @@ export const FAQ = () => {
                   </Accordion.Toggle>
                   <Accordion.Collapse eventKey="10">
                     <Card.Body>
-                      Please wait for our official launch date in Late February.
+                      Please wait for our official launch date in March 26, with a presale 1 day before.
                       In the meantime, participate in any of our contests for
                       the whitelist position!
                     </Card.Body>
