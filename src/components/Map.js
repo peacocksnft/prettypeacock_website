@@ -60,7 +60,6 @@ export const Map = () => {
                 >
                   25%
                 </h1>
-                <p>SOL giveaway: 10</p>
                 <p>
                 5 Pretty Peacocks will be rewarded to random verified holders (must be in the first 1000 holders). There will also be another 1/1 Prized Peacock given away to a random discord member who is at least level 10 in the server. {" "}
                 </p>
