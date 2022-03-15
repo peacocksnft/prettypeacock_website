@@ -18,7 +18,7 @@ export const Home = () => {
       <div>
         <img
           className="w-100 banner"
-          src="/banner.png"
+          src="/banner.jpg"
           alt="Pretty Peacock Banner"
         />
       </div>
